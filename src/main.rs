@@ -1,5 +1,5 @@
-mod shape;
-use shape::Shape;
+mod applib;
+use crate::applib::shape::Shape;
 
 fn main() {
     let shape1 = Shape::Rectangle { width: 30.0, height: 50.0 };
